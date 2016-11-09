@@ -1,9 +1,16 @@
 package Hello.Model;
 
+import java.io.Serializable;
+
 public class Customer {
+
+
+
     private Long id;
     private String name;
     private String lastName;
+
+    public Customer() {}
 
     public Customer(Long id, String name, String lastName) {
         this.id = id;
